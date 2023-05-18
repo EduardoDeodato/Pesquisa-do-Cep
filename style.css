@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    height: auto;
+    background-image:url("https://thumbs.dreamstime.com/b/fundo-do-correio-12578668.jpg");
+    font-family: 'segoe'system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+}
+
+.formulario{
+    width: 300px;
+    margin: 0 auto;
+    margin: 50px;
+}
+#btnPesquisar {
+    width: 100%;
+    padding: 8px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+input {
+  width: 96.5%;
+  height: 32px;
+}
+h1 {
+    text-align: center;
+}
+
+#btnPesquisar:hover {
+    background-color: rgb (29, 2, 54);
+}
+
+img {
+    margin-top: 48px;
+    width: 300px;
+    height:  auto;
+}
